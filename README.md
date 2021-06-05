@@ -22,7 +22,28 @@ Create Live Streaming Video Chat App without voice using cv2 module of Python
 
 ![image](https://user-images.githubusercontent.com/60494696/120881730-5b791300-c5a1-11eb-9197-22a68dd11bea.png)
 
-6.
+6.Now in third cell we use read() function which read the value of cap variable and also created 2 variable with the name ret & photo.
+
+![image](https://user-images.githubusercontent.com/60494696/120881796-a2ff9f00-c5a1-11eb-987d-e6ed792da7f0.png)
+
+7.Now we create a loop.
+
+![image](https://user-images.githubusercontent.com/60494696/120881843-fd006480-c5a1-11eb-950d-fdaac9ee4d28.png)
+
+(if cv2.waitKey(10) == 13: this line capture the photo in every 10 milesec and imshow() function show the click photo continuously and this will look like continuous video streaming)
+
+8.And at last window is close by this function.
+![image](https://user-images.githubusercontent.com/60494696/120881932-9b8cc580-c5a2-11eb-99f6-cdc2b9c0e438.png)
+
+9. And to close the camera we have to make use of cap.release() function.
+![image](https://user-images.githubusercontent.com/60494696/120881968-cc6cfa80-c5a2-11eb-8969-dbd113385578.png)
+
+10.Now run the code and we can see continuous live video stream.
+![image](https://user-images.githubusercontent.com/60494696/120882048-42716180-c5a3-11eb-88f3-e6694978fc71.png)
+
+
+
+
 
 
 
